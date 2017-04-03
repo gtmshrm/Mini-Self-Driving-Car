@@ -2,15 +2,19 @@
 
 ## File structure
 
-`
-  ---- rasp-pi ---- collect_data ---- <data collections modules>
-         |     ---- client.py
-         |
-  ---- server  ---- preprocess   ---- data_preprocess.py, merge_and_prep.py
-         |     ---- server.py
-         |
-  ---- selfdrive ---- <self driving modules>
-`
+```bash
++-- rasp-pi
+|   +-- collect_data
+|   |   +-- <data collections modules>
+|   +-- +-- client.py
+|   +-- preprocess
+|   |   +-- data_preprocess.py, merge_and_prep.py
+|   +-- +-- server.py
+|   |   +-- <data collections modules>
+|   +-- selfdrive
+|   |   +-- <self driving modules>
+|   |   ...
+```
 
 ## Collect data
 
