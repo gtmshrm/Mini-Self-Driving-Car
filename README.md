@@ -1,6 +1,6 @@
 # Self driving car for GSOC 2017
 
-## [Real-time and Simulation videos] (https://www.youtube.com/playlist?list=PLdB2BCvl7RPBdJyfz71QX25x7unK-nBI8)
+## [Real-time and Simulation videos](https://www.youtube.com/playlist?list=PLdB2BCvl7RPBdJyfz71QX25x7unK-nBI8)
 
 ## File structure
 
