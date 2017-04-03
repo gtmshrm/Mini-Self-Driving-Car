@@ -23,6 +23,12 @@
     Read README.md of: ./raspi-pi/collect_data
 
 
+## Preprocess
+
+  + Preprocess the train to be consumped by the model
+    Read README.md of: ./server/preprocess
+
+
 ## Train
 
   + Train the model
