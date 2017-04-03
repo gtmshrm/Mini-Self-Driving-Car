@@ -50,3 +50,10 @@
     Read README.md of: ./rasp-pi
     Read README.md of: ./server
 
+## Note: Use GPU in real-time predictions otherwise the prediction would be badly hindered
+
+  + Server with gpu:
+    Entire process of image transmission and steering angle prediction takes about <= 0.1 seconds per frame
+
+  + Server with cpu:
+    Entire process of image transmission and steering angle prediction takes about 0.6-0.8 seconds per frame
