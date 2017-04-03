@@ -1,0 +1,1 @@
+scp data/steer-1.csv data/video1.mp4 data/start-ts-1.pkl gtmshrm@192.168.0.6:/home/gtmshrm/projects/training_data/$1/

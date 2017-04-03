@@ -1,0 +1,15 @@
+-----------------------
+BEST: model3/save/model-5-2880.ckpt
+-----------------------
+
+1. model=def ep=0,bs=128,cam_res=(160,120)
+   ----------> mse=0.0972
+
+2. model=def with tanh ep=6,bs=128,cam_res=(160,120)
+   ----------> mse=0.0847
+
+3. model=def with tanh ep=2,bs=32,cam_res=(320,240)
+   ----------> mse=0.086
+
+4. model=def with tanh ep=8,iter=2528,bs=32,cam_res=(320,240)
+   ----------> mse=0.08

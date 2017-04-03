@@ -1,0 +1,1 @@
+MP4Box -add /home/pi/projects/gsoc-self-driving-rc-car/raspberry-pi/collect_data/data/video1.h264 /home/pi/projects/gsoc-self-driving-rc-car/raspberry-pi/collect_data/data/video1.mp4

@@ -1,0 +1,9 @@
+# log start time of video
+python start_vid.py
+
+# record video for 1 minute at 10 fps
+raspivid -w 640 -h 480 -o /home/pi/projects/gsoc-self-driving-rc-car/raspberry-pi/collect_data/data/video1.h264 -ex night -fps 15 -t 180000
+
+chmod +x h264_to_mp4
+./h264_to_mp4
+
