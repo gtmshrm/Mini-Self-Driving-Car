@@ -1,4 +1,4 @@
-## Perception module
+## Autopilot module
 
 * Train on collected data
 
