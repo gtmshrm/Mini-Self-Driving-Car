@@ -1,4 +1,4 @@
-# Self driving car for GSOC 2017
+# Self driving car - Robot
 
 ## [Real-time and Simulation videos](https://www.youtube.com/playlist?list=PLdB2BCvl7RPBdJyfz71QX25x7unK-nBI8)
 

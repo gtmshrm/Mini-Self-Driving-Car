@@ -11,7 +11,7 @@ import sys
 
 SPEED = 70
 
-class Stack(object):
+class StateStack(object):
   def __init__(self):
     self.__items = []
 
@@ -31,7 +31,7 @@ class Stack(object):
     return len(self.__items)==0
 
 # State stack keeps track of which is currently pressed
-state_stack = Stack()
+state_stack = StateStack()
 
 
 class Controller(object):
@@ -40,7 +40,7 @@ class Controller(object):
     self.motor = motor.Motor()
     self.servo = servo.Servo(pin=4)
     self.angle = {'forward': 0, 'forward_left': -1, 'forward_right': 1}
-    self.data_stack = pd.DataFrame( columns=['angle', 'action', 'timestamp'])
+    self.data_stack = pd.DataFrame(columns=['angle', 'action', 'timestamp'])
     self.f_a = True
     self.r_a = True
     self.l_a = True
